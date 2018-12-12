@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+html{
+    background: url("../img/bg.jpg") no-repeat;
+    background-position: fixed;
+	background-size: cover;
+    min-height: 100%;
+}
+
+body{
+    background:none;
+}
+
+#advanced-search-form{
+    background-color: #fff;
+    max-width: 900px;
+    margin: 80px auto 50px;
+    padding: 40px;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+label{
+    color: #000;
+}
+#advanced-search-form h2{
+    /*padding-bottom: 20px;
+    margin: 10px 20px;
+    */font-size: 20px;
+}
+.ccc p{
+    position: relative;
+}
+.ccc p span{
+    position: absolute;
+    font-family: 'Lobster Two',cursive;
+    font-style: italic;
+    width:100%;
+    font-size: 3.8rem;
+    line-height: 100%;
+    color: #26A69A;
+
+}
+.tabs .indicator{
+    background-color:#26A69A;
+}
+.tabs .tab a{
+    color:rgba(38, 166, 154, 0.5)
+}
+.tabs .tab a:hover{
+    color:rgba(38, 166, 154, 0.8);
+}
+.tabs .tab a.active{
+    color:#26A69A;
+}
+
+
+#ccc{
+    font-family: 'Lobster Two',cursive;
+    font-style: italic;
+    font-size: 3rem;
+    margin-top:0;
+    padding:20px 0 0 0 ;
+    margin-bottom: 0;
+    color: #26A69A;
+    
+}
+/*#advanced-search-form hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}*/
+
+@media screen and (max-width: 800px){
+    #advanced-search-form .input-field{
+        width: 45%;
+    }
+    #advanced-search-form{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #advanced-search-form .input-field{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #advanced-search-form h2{
+        text-align: center;
+    }
+    #advanced-search-form{
+        margin-bottom:0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    blockquote{
+        margin-top: 0
+    }
+}
